@@ -28,7 +28,7 @@ void loop()
 		Data.mode = 2;
 	}
 
-	// Algorytme pour transfomer l'état du JoyStick en 2 variable qui sont e suite envoyé a la voiture
+	// Algorytme pour transfomer l'état du JoyStick en 2 variable qui sont ensuite envoyé a la voiture
 	Direction.HAUT = map(Etat.JoyY, 515, 1023, 0, 255);
 	Direction.BAS = map(Etat.JoyY, 0, 515, 255, 0);
 
